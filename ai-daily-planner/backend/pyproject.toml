@@ -1,0 +1,26 @@
+[project]
+name = "ai-daily-planner-backend"
+version = "0.1.0"
+description = "FastAPI backend for AI Daily Planner"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+pythonpath = ["backend"]
+
+[tool.pipdeps]
+
+[dependencies]
+fastapi = "^0.115.0"
+uvicorn = "^0.30.0"
+python-dotenv = "^1.0.1"
+pydantic = "^2.8.2"
+ttkbootstrap = "^1.6.1"
+requests = "^2.31.0"
+
+# Firebase Admin SDK (auth verification)
+firebase-admin = "^6.6.0"
+
+
